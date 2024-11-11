@@ -38,6 +38,7 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 @Mod(ExampleMod.MODID)
 public class ExampleMod
 {
+    private String VERSION = "1.0";
     // Define mod id in a common place for everything to reference
     public static final String MODID = "examplemod";
     // Directly reference a slf4j logger
